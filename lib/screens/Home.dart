@@ -279,7 +279,7 @@ class _Home_pageState extends State<Home_page> {
                     width: 300,
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
-                      child: Text("Supplements informations",
+                      child: Text("Supplements",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
