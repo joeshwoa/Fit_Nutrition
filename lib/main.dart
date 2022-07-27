@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 bool showHome = false;
 var current = DateTime.now();
+final prefs = SharedPreferences.getInstance();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

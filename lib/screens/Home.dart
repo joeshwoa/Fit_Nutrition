@@ -25,6 +25,7 @@ class _Home_pageState extends State<Home_page> {
   void _loadInv() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
+
       InvCalo = prefs.getDouble('dayCalo') ?? 0;
       InvCarb = prefs.getDouble('dayCarb') ?? 0;
       InvFat = prefs.getDouble('dayFat') ?? 0;
@@ -69,7 +70,6 @@ class _Home_pageState extends State<Home_page> {
   }
   @override
   Widget build(BuildContext context) {
-    _resetInvNewDay();
     _loadInv();
     return Scaffold(
         backgroundColor: Color(0xFF182633),

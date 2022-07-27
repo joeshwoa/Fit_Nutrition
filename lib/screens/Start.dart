@@ -109,7 +109,7 @@ class _Start_pageState extends State<Start_page> {
                     width: 300,
                     decoration: BoxDecoration(
                         color: const Color(0xFF39d38d),
-                        borderRadius: BorderRadius.circular(50)),
+                        borderRadius: BorderRadius.circular(20)),
                     child: const Center(
                       child: Text(
                         "Get Started",
