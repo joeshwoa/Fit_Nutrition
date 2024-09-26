@@ -1,3 +1,6 @@
+<img src="https://skillicons.dev/icons?i=flutter,dart" />
+<br>
+
 # Fit Nutrition
 Fit Nutrition is a comprehensive mobile application designed to help users track their nutrition and make healthier food choices. Whether you're a fitness enthusiast, a busy professional, or someone looking to improve their diet, this app provides a user-friendly platform to log food intake, view nutritional data, and set dietary goals.
 
